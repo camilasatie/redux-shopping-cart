@@ -1,0 +1,53 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 4rem;
+  background: var(--primary-color);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar__logoContainer {
+  display: flex;
+}
+
+.navbar__logo {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.navbar__cart {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar__cart:hover {
+  opacity: 0.75;
+}
+
+.cart__image {
+  opacity: 0.8;
+  width: 50px;
+  height: auto;
+}
+
+.cart__counter {
+  height: 25px;
+  width: 25px;
+  background-color: #FDC84A;
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  border-radius: 50%;
+  color: var(--dark-color);
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

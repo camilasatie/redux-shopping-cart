@@ -4,11 +4,11 @@ import styles from "./CartItem.module.css";
 const CartItem = () => {
   return (
     <div className={styles.cartItem}>
-      <img
+      {/* <img
         className={styles.cartItem__image}
         src={item.image}
         alt={item.title}
-      />
+      /> */}
       <div className={styles.cartItem__details}>
         <p className={styles.details__title}>Title</p>
         <p className={styles.details__desc}>Description</p>
